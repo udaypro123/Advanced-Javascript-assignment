@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>slider img</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
 
@@ -18,31 +20,32 @@
         <img src="./reverse.png" alt="" id="img2" onclick="PrevImg()">
     </div>
 
-<script>
-    
-    var img=[];
-    img[0]="victor-martin-2FM7RP20SHQ-unsplash.jpg"
-    img[1]="alejandro-barba-XpPIZZ16b7I-unsplash.jpg"
-    img[2]="axp-photography-1ttROFnpDVs-unsplash.jpg"
-    i=0;
+    <script>
 
-    const image=document.getElementById("IMslider");
+        var img = ["victor-martin-2FM7RP20SHQ-unsplash.jpg", "alejandro-barba-XpPIZZ16b7I-unsplash.jpg", 
+        "axp-photography-1ttROFnpDVs-unsplash.jpg"
+    ];
 
-    function NextImg(){
-        if(i < img.length-1)
-            i++;
+        i = 0;
+
+        const image = document.getElementById("IMslider");
+        setInterval("NextImg()", 3000)
+        function NextImg() {
+            if (i < img.length - 1)
+                i++;
             else
-            i=0;
-        image.src=img[i];
-    }
-    function PrevImg(){
+                i = 0;
+            image.src = img[i];
+        }
+        function PrevImg() {
             i--;
-           if(i== -1)
-            i=2;
-        image.src=img[i];
-    }
+            if (i == -1)
+                i = 2;
+            image.src = img[i];
+        }
 
-</script>
+    </script>
 
 </body>
+
 </html>
