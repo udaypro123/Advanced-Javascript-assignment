@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider img</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="div1">
+            <img src="./victor-martin-2FM7RP20SHQ-unsplash.jpg" alt="" id="IMslider">
+        </div>
+
+        <img src="./27223.png" alt="" id="img1" onclick="NextImg()">
+        <img src="./reverse.png" alt="" id="img2" onclick="PrevImg()">
+    </div>
+
+<script>
+    
+    var img=[];
+    img[0]="victor-martin-2FM7RP20SHQ-unsplash.jpg"
+    img[1]="alejandro-barba-XpPIZZ16b7I-unsplash.jpg"
+    img[2]="axp-photography-1ttROFnpDVs-unsplash.jpg"
+    i=0;
+
+    const image=document.getElementById("IMslider");
+
+    function NextImg(){
+        if(i < img.length-1)
+            i++;
+            else
+            i=0;
+        image.src=img[i];
+    }
+    function PrevImg(){
+            i--;
+           if(i== -1)
+            i=2;
+        image.src=img[i];
+    }
+
+</script>
+
+</body>
+</html>
