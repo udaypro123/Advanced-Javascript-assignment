@@ -25,3 +25,16 @@ color.setAttribute("style", "color:red");
 This will work when you enter your mouse on button color will be change, 
  after remove the mouse on the button color will be also changes,
 ```
+
+
+
+#Assignment 3
+```
+This is 3rd Assignment of advanced javascript.
+In this Assignment I have taken 3 images and two button .
+
+#how to Use:
+This will work when you click on next button and previous button ,
+when we click on button image  will be change, 
+
+```
