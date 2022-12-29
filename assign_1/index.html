@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manupulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+
+        <input ondblclick="hello()" id="input" type="text" />
+        <p class="wrote"> </p>
+    </div>
+
+    <script>
+        function hello(){
+
+            const inputvalue=document.getElementById("input").value;
+            console.log(inputvalue);
+            const para=document.getElementsByClassName("wrote");
+            console.log(para)
+            para[0].innerHTML = inputvalue;
+        }
+        
+    </script>
+
+</body>
+</html>

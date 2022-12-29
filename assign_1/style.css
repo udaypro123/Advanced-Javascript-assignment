@@ -1,0 +1,27 @@
+div{
+    
+margin-top: 20%;
+margin-left: 40%;
+}
+button{
+    height: 60px;
+    width: 200px;
+    background-color: aqua;
+
+}
+#input{
+    height: 60px;
+    width: 400px;
+    border: 3px solid greenyellow;
+    outline: none;
+    font-size: 30px;
+}
+.wrote{
+  
+    width: 230px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
