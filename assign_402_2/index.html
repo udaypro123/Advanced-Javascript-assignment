@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body id="body">
+
+    <h1>
+        Geekster
+    </h1>
+
+    <p id="content">
+    </p>
+
+    <button onclick="hello()">
+        click here
+    </button>
+
+    <h3 id="content2">
+    </h3>
+
+    <script>
+        var para = document.getElementById('content');
+        para.innerHTML = "Click on the button to add image element";
+        var heading = document.getElementById('content2');
+
+        function hello() {
+            var img = document.createElement('img');
+            img.src = "Screenshot 2023-01-02 232640.jpg";
+            document.getElementById('body').appendChild(img);
+            heading.innerHTML = "Image Element Added";
+        }
+    </script>
+</body>
+
+</html>
