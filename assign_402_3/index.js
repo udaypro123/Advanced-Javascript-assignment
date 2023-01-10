@@ -3,6 +3,7 @@ let i=1;
 
 function hello(){
     const val=document.getElementById("input").value
+    console.log(val);
 
     let item=document.createElement("li");
     item.innerHTML=val

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bodydiv{
+    height: 100vh;
+    width: 100vw;
+   opacity: .9;
+    background-image: url(./quin-engle-qhQDWQV9lOU-unsplash.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#listdiv{
+    height: 680px;
+    width: 500px;
+    left: 50%;
+    top: 5%;
+    box-shadow: 0px 0px 5px 2px rgb(147, 147, 147);
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div1{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div2{
+    height: auto;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div2 input{
+    font-size: 20px;
+    margin: 15px 0px;
+    outline: none;
+}
+.div2 label{
+    font-size: 25px;
+  
+}
+.div3{
+    height: auto;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#select{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+/* #select:hover{
+    background-color: rgb(114, 114, 250);
+} */
+.div4{
+    height: auto;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div4 input{
+    font-size: 20px;
+    margin: 15px 0px;
+    outline: none;
+}
+
+.div5{
+    height: 50px;
+    width: 80%;
+    background-color: rgb(117, 24, 24);
+   font-size: 25px;
+    display: flex;
+    color: azure;
+    justify-content: center;
+    align-items:center;
+    text-transform: uppercase;
+}
+
+
+.div6{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.div6 span{
+    font-size: 20px;
+    color: blue;
+}

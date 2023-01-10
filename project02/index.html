@@ -6,20 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <h2>world country data</h2>
-        <p id="subheading"></p>
-    </div>
+    <div class="maindiv">
 
-    <div id="lowerdiv">
-        <div id="btnconatiner">
-            <button id="population"  onclick="buttononeclick()"> population</button>
-            <button id="language" onclick="buttontwoclick()">language</button>
+
+        <div class="upperdiv">
+            <h2>world country data</h2>
+            <p id="subheading"></p>
         </div>
-        <p id="graphTitle"></p>
+
+        <div id="lowerdiv">
+            <div id="btnconatiner">
+                <button id="population" onclick="hello()"> population</button>
+                <button id="language" onclick="buttontwoclick()">language</button>
+            </div>
+
+            <p id="graphTitle"></p>
+
+            <div id="graphcontainer"></div>
+            
+        </div>
+
     </div>
 
     <script src="data.js"></script>
