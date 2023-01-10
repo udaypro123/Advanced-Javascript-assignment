@@ -18,7 +18,7 @@
     width: 500px;
     left: 50%;
     top: 5%;
-    box-shadow: 0px 0px 5px 2px rgb(147, 147, 147);
+    box-shadow: 0px 0px 10px 3px rgb(96, 78, 78);
     background-color: white;
     position: absolute;
     display: flex;
@@ -44,7 +44,7 @@
     outline: none;
 }
 .div2 label{
-    font-size: 25px;
+    font-size: 20px;
   
 }
 .div3{
@@ -87,10 +87,14 @@
     height: auto;
     width: 100%;
     text-align: center;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+.div6 p{
+    font-size: 30px;
+}
 .div6 span{
-    font-size: 20px;
+    font-size: 40px;
     color: blue;
 }

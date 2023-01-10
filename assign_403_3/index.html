@@ -17,30 +17,30 @@
             <div class="div2">
                 <p>How much was your bill ?</p>
                 <label for="input">$</label>
-                <input type="float">
+                <input type="float" id="input">
             </div>
 
             <div class="div3">
                 <p>How was your Service ?</p>
 
                 <select name="" id="select">
-                    <option value=""><span>20</span>% good</option>
-                    <option value=""><span>30</span>% outstanding</option>
-                    <option value=""><span>15</span>% It was Okey</option>
-                    <option value=""><span>10</span>% bad</option>
-                    <option value=""><span>5</span>% terrible</option>
+                    <option value="20">20% good</option>
+                    <option value="30">30% outstanding</option>
+                    <option value="15">15% It was Okey</option>
+                    <option value="10">10% bad</option value=>
+                    <option value="5">5% terrible</option>
 
                 </select>
             </div>
             <div class="div4">
-                <p>Howmany people durring the bill ?</p>
+                <p>Howmany people share the bill ?</p>
                
-                <input type="number"> people
+                <input type="number" id="numpeople"> people
             </div>
-            <div class="div5"> Calculate!</div>
+            <div class="div5" onclick="tip()"> Calculate!</div>
             <div class="div6">
                 Tip Amount
-                <p>$ <span>4.00</span></p>
+                <p> <sup>$</sup> <span id="span">4.00</span></p>
                 each
             </div>
         </div>
