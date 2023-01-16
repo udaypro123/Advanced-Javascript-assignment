@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world countris list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="headpart">
+        <div class="divinsidepart">
+
+            <p id="para1">world countries list</p>
+            <p id="totalcountry" >total no. of countries</p>
+            <p id="para3"></p>
+        
+            <div>
+                <button id="startingbutton" onclick="startingword()"> starting word</button>
+                <button id="searchwithanyword" onclick="seachwithanyword()"> search with any word </button>
+            </div>
+    
+            <input onkeyup="startingword()" type="text" id="inputvalue" placeholder="search country...." style="text-align: center">
+        </div>
+    </div>
+
+
+    <div id="countryCardContainer" style="display: flex; flex-wrap: wrap; justify-content: center;"></div>
+
+
+    
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
