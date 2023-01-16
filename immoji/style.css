@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headdiv{
+height: 200px;
+background-color: rgb(0, 0, 0);
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#headdivpart{
+height: 100px;
+background-color: rgb(0, 0, 0);
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#img{
+    height: 40px;
+    width: 40px;
+    margin: 10px 20px;
+}
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+#hedpart1div{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 10%;
+    font-size: 20px;
+}
+button:hover{
+    height: 35px;
+    width: 10%;
+    margin: 0px 20px;
+    background-color: rgb(198, 229, 229);
+    border-radius: 10px;
+}
+#input{
+    height: 40px;
+    width: 30%;
+    outline: none;
+    font-size: 20px;
+}
+
+#container{
+    background-color: antiquewhite;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 70%;
+    height: 250px;
+    
+}
+
+ .tablerow{
+    border: 2px solid black;
+}
+
+td{
+    /* width: 40px; */
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+
+}
