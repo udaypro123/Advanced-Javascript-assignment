@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="maindiv">
+        <div id="maindivpart1">
+            <h1>Emoji Search </h1> <img src="./Zerode-Plump-Search.ico" alt="">
+            <h1> Application</h1>
+
+        </div>
+        <div id="maindivpart2">
+
+            <input onkeyup="searchEmojiKeyup()" type="text" id="input">
+            <button onclick="searchEmoji()">Search</button>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="div">
+            <table id="tableData"></table>
+
+        </div>
+    </div>
+
+
+
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
