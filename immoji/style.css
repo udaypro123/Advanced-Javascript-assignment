@@ -11,6 +11,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
+border-bottom: 1px solid white;
 align-items: center;
 }
 #headdivpart{
@@ -61,12 +62,13 @@ button:hover{
 }
 
 #container{
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
     height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 table {
     width: 70%;
@@ -80,8 +82,8 @@ table {
 
 td{
     /* width: 40px; */
-  font-size: 30px;
+  font-size: 25px;
   margin: 20px;
-  text-align: center;
+ 
 
 }
