@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 22, 22);
+}
+
+.headerdiv {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerdiv img {
+    height: 35px;
+    width: 40px;
+    margin: 10px;
+}
+h2{
+    font-family: monospace;
+    color: rgb(237, 236, 236);
+}
+.clearbuttonppart{
+    display: flex;
+    width: 35%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.clearbuttonppart p{
+  font-size: 20px;
+  color: rgb(225, 225, 225);
+  font-family: monospace;
+  margin: 20px;
+}
+.clearbuttonppart button{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(23, 22, 22);
+}
+.clearbuttonppart button:hover{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(124, 152, 246);
+  background-color: rgb(0, 0, 0);
+}
+#input{
+    height: 40px;
+    width: 25%;
+    margin-left: 20px;
+    font-size: 21px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+#btn{
+    height: 45px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 5%;
+    font-size: 20px; 
+}
+#btn:hover{
+   background-color: rgb(83, 70, 51); 
+}
+
+#profileContainer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.containerdiv{
+    height: auto;
+    width: 20%;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    margin: 20px;
+    box-shadow: 0px 0px 1px 1px rgb(48, 48, 48);
+    border-radius: 10px;
+}
+.containerdiv img{
+   height: 75px;
+   width: 75px;  
+   margin: 10px;
+   border-radius: 50%;
+}
+.insidediv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 10px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+a{
+    color: rgb(113, 108, 108);
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(92, 129, 251);
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}

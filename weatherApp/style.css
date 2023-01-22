@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyDiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(49, 49, 255, 0.867);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headingDiv{
+    background-color: aliceblue;
+    display: flex;
+    height: 60px;
+    width: 50%;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    text-shadow: 1px 1.2px blue;
+    color: rgb(29, 29, 92);
+    margin-top: 20px;
+}
+.midDiv{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 35%;
+    font-size: 40px;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: monospace;
+    text-shadow: 1px 1.2px blue;
+    color: rgb(29, 29, 92);
+    margin-top: 20px;
+}
+#input{
+    height: 20%;
+    width: 60%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: bisque;
+    margin-top: 5%;
+}
+button:hover{
+    background-color: rgb(215, 155, 82);
+   
+}
+
+.contentdiv{
+    height: 300px;
+    width: 35%;
+    margin-top: 3%;
+}
+.contentdivpart1{
+    background-color: aqua;
+    height: 20%;
+    width: 100%;
+ display: flex;
+  justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+.contentdivpart2{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h3{
+   padding:15px 40px;
+}
+#spn{
+    color: blue;
+    text-transform: capitalize;
+}
