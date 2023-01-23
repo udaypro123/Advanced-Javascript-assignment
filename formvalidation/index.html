@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="form">
+            <div class="formupper">
+                <h1 >Validating Web Forms</h1>
+            </div>
+            <div class="formlower">
+                
+                <div class="subcontainer">
+                    <div class="subcontainerdiv">
+                        <h2>First Name</h2>
+                    </div>
+                    <div class="subcontainerdiv">
+                        <input onkeyup="firstnamecheck()" type="text" name="" id="firstname">
+                    </div>
+                    <div class="subcontainerdiv">
+                        <h3 id="firstnamepara"></h3>
+                    </div>
+                </div>
+                <div class="subcontainer">
+                    <div class="subcontainerdiv">
+                        <h2>Last Name</h2>
+                    </div>
+                    <div class="subcontainerdiv">
+                        <input onkeyup="lastnamecheck()" type="text" name="" id="lastname">
+                    </div>
+                    <div class="subcontainerdiv">
+                        <h3 id="lastnamepara"></h3>
+                    </div>
+                </div>
+                <div class="subcontainer">
+                    <div class="subcontainerdiv">
+                        <h2>Email</h2>
+                    </div>
+                    <div class="subcontainerdiv">
+                        <input onkeyup="emailcheck()" type="email" name="" id="email">
+                    </div>
+                    <div class="subcontainerdiv">
+                        <h3 id="emailpara"></h3>
+                    </div>
+                </div>
+                <div class="subcontainer">
+                    <div class="subcontainerdiv">
+                        <h2>Password</h2>
+                    </div>
+                    <div class="subcontainerdiv">
+                        <input onkeyup="passwordcheck()" type="password" name="" id="password">
+                    </div>
+                    <div class="subcontainerdiv">
+                        <h3 id="passwordpara"></h3>
+                    </div>
+                </div>
+                <div class="subcontainer">
+                    <div class="subcontainerdiv">
+                        <h2>Telephone</h2>
+                    </div>
+                    <div class="subcontainerdiv">
+                        <input onkeyup="numbercheck()" type="number" name="" id="number">
+                    </div>
+                    <div class="subcontainerdiv">
+                        <h3 id="numberpara"></h3>
+                    </div>
+                </div>
+                <div class="subcontainer">
+                    <div class="subcontainerdiv">
+                        <h2>Your bio</h2>
+                    </div>
+                    <div class="subcontainerdiv">
+                        <input onkeyup="biocheck()" type="text" name="" id="bio">
+                    </div>
+                    <div class="subcontainerdiv">
+                        <h3 id="biopara"></h3>
+                    </div>
+                </div>
+                <h2>button will show when form completely fill</h2>
+                <div id="submit" class="subcontainerbutton"></div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
